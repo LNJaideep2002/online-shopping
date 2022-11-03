@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            #pa{
+                text-align: center;
+                font-size: 50px;
+                margin-top: 50px;
+            }
+        </style>
+    </head>
+    <body id="bo">
+        <p id="pa">Payment Successfully Done</p>
+        <form name="dum" action="/done">
+        </form>
+    </body>
+    <script>
+        var abc1=function()
+        {
+            document.dum.submit();
+        };
+        var abc=function(){
+            document.getElementById("pa").innerHTML="Redirecting ...";
+            setTimeout(abc1,2000);
+        };
+        setTimeout(abc,2000);
+    </script>
+</html>c

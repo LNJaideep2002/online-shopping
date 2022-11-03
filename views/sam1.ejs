@@ -1,0 +1,35 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+            // var data1=document.getElementById("data").innerHTML;
+            var sam='<%-name-%>';
+            console.log(sam);
+        </script>
+    </body>
+</html>
+<div class="res11">
+    <p>Showing the results for"<%=result%>"</p>
+</div>
+<% for(i=0;i<products.length;i++){%> 
+<div class="resp1">
+    <div class="resp11">
+        <img src="<%=products[i].link%>" alt="Mobile" class="resp11" id="data11">
+    </div>
+    <div class="resp12">
+        <p id="data12"><%=products[i].pfn%></p>
+    </div>
+    <div class="resp13">
+        <p id="data13">Price:<%=products[i].pp%> </p>
+    </div>
+    <form action="tocart" method="POST">
+        <input type="number" value="<%=products[i].pid%> "id="data14" name="proid" style="display: none;">
+            <button type="submit" class="resp14">Add to Cart</button>
+    </form>
+    <div class="resp15">
+        <p><%=products[i].pdes%> </p>
+    </div>
+</div>
+<%}%> 

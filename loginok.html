@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <style>
+            @media only screen and (min-width: 768px)
+            {
+                .box
+                {
+                    background-color: #e4e4e4;
+                    height: 30%;
+                    width: 35%;
+                    border-radius: 30px;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                .box p{
+                    font-size: 50px;
+                    position: relative;
+                    top: 20px;
+                    margin: 50px 0px 0px 80px;
+                }
+                .box .box1
+                {
+                    background-color: black;
+                    width: 310px;
+                    border-radius: 10px;
+                    margin: 80px 0px 0px 115px;
+                }
+                .box .box1 a{
+                    color: white;
+                    text-decoration: none;
+                    font-size: 35px;
+                    margin: 0px 0px 0px 20px;
+                }
+                .loa img
+                {
+                width: 350px;
+                height: 350px;
+                margin: 175px 0px 0px 550px;
+                }
+            }
+            @media only screen and (max-width: 768px)
+            {
+                #loa img
+                {
+                width: 350px;
+                height: 350px;
+                margin: 175px 0px 0px 75px;
+                }
+                .box
+                {
+                    background-color: #e4e4e4;
+                    height: 30%;
+                    width: 40%;
+                }
+                .box p{
+                    font-size: 350%;
+                }
+                
+            }    
+        </style>
+    </head>
+    <body>
+        <div id="loa">
+            <img src="loading.gif">
+        </div>
+        <div id="loa1">
+            <div class="box">
+                <p>"Email and Password not matching"</p>
+                <div class="box1">
+                    <a href="/">Go Back to Login</a>
+                </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById("loa1").style.display="none";
+            var q=0,q1=0,q2=0,q3=0,q4=0;
+            window.addEventListener("load",function()
+            {
+                document.getElementById("loa1").style.display="";
+                document.getElementById("loa").style.display="none";
+            });
+        </script>
+    </body>
+</html>

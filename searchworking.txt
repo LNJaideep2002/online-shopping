@@ -1,0 +1,4 @@
+i am comparing each word of input with each word of product name and store the product id ,no of words compared and no of words matched.
+now the array in which the pid is stored is traversed and checking whether and pid are repeated,if so then no of words compared and no of words matched
+are sum up with the repeated pid and the repeated id is deleted. Now the array  is sorted in decending based on no of words matched. Now we are checking 
+whether no of words compared is equal to no of words matched if so then the pid is moved upword;

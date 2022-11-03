@@ -1,0 +1,1910 @@
+    @media only screen and (min-width: 768px)
+    {
+    #loa img
+    {
+       width: 350px;
+       height: 350px;
+       margin: 175px 0px 0px 550px;
+    }
+    body{
+    background-color: #631313;
+    width: auto;
+    }
+    .abc
+    {
+    background-image: url(navbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    }
+    .abc .abc1
+    {
+    background-color: #000000;
+    height: 50px;
+    width: 330px;
+    border-radius: 10px;
+    margin: 1.5% 0% 0% 40%;
+    float: left;
+
+    }
+    .abc .abc1 a
+    {
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+
+    }
+    .abc .abc1 .abc11
+    {
+    float:left;
+    margin: 8px 0px 0px 30px;
+    }
+    .abc .abc2
+    {
+    /* float: left; */
+    width: 7%;
+    margin-left: 15%;
+    }
+    .abc .abc3
+    {
+    text-decoration: none;
+    position: relative;
+    font-size: 30px;
+    top: -40px;
+    left: 2%;
+    color: rgb(209, 22, 22);
+    }
+    a:hover
+    {
+    color: black;
+    border-bottom: 3px solid white;
+    }
+    .bcd .bcd1
+    {
+    background-color: #000000;
+    height: 50px;
+    width: 580px;
+    margin: 20px 0px 0px 20px;
+
+    }
+    .bcd .bcd1 .bcd11
+    {
+    float: left;
+    font-size: 25px;
+    margin: 8px 0px 0px 20px;
+    cursor: pointer;
+    }
+    .bcd .bcd1 .bcd11 a
+    {
+    text-decoration: none;
+    color: #ffffff;
+    }
+    .bcd .bcd1 .bcd11 a:hover
+    {
+    border-bottom: 3px solid white;
+    color: #ffffff;
+    }
+    .bcd2
+    {
+    background-color: black;
+    width: 550px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+    left: 950px;
+    }
+    input[type="search"]
+    {
+    width: 93%;
+    height: 28px;
+    margin: 10px 0px 0px 20px;
+    padding-left: 29px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 18px;
+    }
+    .se1
+    {
+    background-color: #dfd2d2;
+    width: 28px;
+    height:27px;
+    position: relative;
+    top: -87%;
+    left: 3%;
+    }
+    .se1 #se11
+    {
+    color:#000000;
+    font-weight: bolder;
+    position: relative;
+    top: 2px;
+    left: 3px;
+    }
+    .outerpro
+    {
+        box-shadow: 0px 0px 10px 10px rgb(148, 148, 148);
+    background-color: #ffffff;
+    width: 98%;
+    min-height: 1800px;
+    margin: -25px 10px 0px 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(10,1fr);
+    padding: 10px;
+    gap: 10px;
+    }
+    .outerpro .p1{
+        border: 2px black solid;
+    }
+    .outerpro .p1:hover{
+        box-shadow: 0px 0px 10px 5px #000000;
+    }
+    .outerpro .pro1
+    {
+    background-color: aqua;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .proi11
+    {
+        grid-column: 1/3;
+        margin: 10px 0px 10px 70px;
+        width: 218px;
+        height: 225px;
+    }
+    .outerpro .proi12
+    {
+        grid-column: 1/3;
+        font-weight:1000;
+        margin: 10px 0px 0px 0px;
+    }
+    .outerpro .proi13
+    {
+        margin: 15px 0px 0px 20px;
+        font-size: 25px;
+    }
+    .outerpro .proi14
+    {
+        background-color: black;
+        color: white;
+        height: 40px;
+        width: 100px;
+        font-size:15px;
+        border-radius: 10px;
+        margin: 10px 0px 0px 50px;
+        cursor: pointer;
+    }
+    .outerpro .pro2
+    {
+    background-color: rgb(0, 255, 13);
+    grid-row: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro3
+    {
+    background-color: rgb(255, 251, 0);
+    grid-column: 3/5;
+    }
+    .outerpro .p2 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 250px;
+    }
+    .outerpro .p2 .proi31
+    {
+    float: left;
+    margin: 30px 0px 0px 50px;
+    }
+    .outerpro .p2 .proi31 img
+    {
+    width: 180px; 
+    height: 200px;
+    }
+    .outerpro .p2 .proi32
+    {
+    float: left;
+    margin: 30px 0px 0px 50px;
+    }
+    .outerpro .p2 .proi32 img
+    {
+    width: 180px; 
+    height: 200px;
+    }
+    .outerpro .p2 .proi33
+    {
+    display: inline-block;
+    margin: 30px 0px 0px 50px;
+    }
+    .outerpro .p2 .proi33 img
+    {
+    width: 180px; 
+    height: 200px;
+    }
+    .outerpro .p2 .proi31 a
+    {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi31 a:hover
+    {
+    font-size: 20px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .p2 .proi32 a
+    {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi32 a:hover
+    {
+    font-size: 20px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .p2 .proi33 a
+    {
+    position: relative;
+    top: 30px;
+    left: 50px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi33 a:hover
+    {
+    font-size: 20px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .pro4
+    {
+    background-color: rgb(86, 67, 139);
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro5
+    {
+    background-color: rgba(255, 0, 212, 0.521);
+    grid-row: 2/3;
+    grid-column: 2/4;
+    
+    }
+    .outerpro .pro6
+    {
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro7
+    {
+    background-color: rgb(255, 145, 0);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro8
+    {
+    background-color: rgb(156, 135, 107);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro9
+    {
+    background-color: rgb(94, 86, 76);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro10
+    {
+    background-color: rgb(99, 90, 230);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro11
+    {
+    background-color: rgb(62, 192, 50);
+    grid-column: 1/3;
+    }
+    .outerpro .pro12
+    {
+    background-color: rgb(125, 184, 113);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro13
+    {
+    background-color: rgb(156, 48, 133);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro14
+    {
+    background-color: rgb(145, 97, 35);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro15
+    {
+    background-color: rgb(255, 0, 0);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro16
+    {
+    background-color: rgba(35, 153, 98, 0.432);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro17
+    {
+    background-color: rgb(0, 247, 255);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro18
+    {
+    background-color: rgb(152, 175, 47);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro19
+    {
+    background-color: rgb(122, 79, 79);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro20
+    {
+    background-color: rgb(99, 138, 10);
+    grid-column: 3/5;
+    }
+    .outerpro .pro21
+    {
+    background-color: rgb(63, 22, 129);
+    grid-column: 1/3;
+    }
+    .outerpro .pro22
+    {
+    background-color: rgb(255, 0, 106);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro23
+    {
+    background-color: rgb(0, 255, 34);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro24
+    {
+    background-color: rgb(255, 115, 0);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+
+    .outerpro .pro25
+    {
+    background-color: rgb(73, 127, 129);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+
+    .outerpro .pro26
+    {
+    background-color: rgb(228, 120, 213);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro27
+    {
+    background-color: rgba(93, 0, 180, 0.445);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+ 
+    .outerpro .pro28
+    {
+    background-color: rgba(0, 174, 180, 0.692);
+    grid-column: 1/5;
+    }
+    .outerpro .pro28 .proi31
+    {
+    float: left;
+    background-color: blue;
+    height: 100%;
+    width: 50px;
+    cursor: pointer;
+    }
+    .outerpro .pro28 .proi31 i
+    {
+    margin: 160px 0px 0px 15px;
+    }
+    .outerpro .pro28 .proi32
+    {
+    float: left;
+    margin: 70px 0px 0px 75px;
+    }
+    .outerpro .pro28 .proi32 img
+    {
+    width: 180px;
+    height: 200px;
+    }
+    .outerpro .pro28 .proi32 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi32 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    }
+    .outerpro .pro28 .proi33
+    {
+    float: left;
+    margin: 70px 0px 0px 75px;
+    }
+    .outerpro .pro28 .proi33 img
+    {
+    width: 180px;
+    height: 200px;
+    }
+    .outerpro .pro28 .proi33 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi33 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    }
+    .outerpro .pro28 .proi34
+    {
+    float: left;
+    margin: 70px 0px 0px 75px;
+    }
+    .outerpro .pro28 .proi34 img
+    {
+    width: 180px;
+    height: 200px;
+    }
+    .outerpro .pro28 .proi34 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi34 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    }
+    .outerpro .pro28 .proi35
+    {
+    float: left;
+    margin: 70px 0px 0px 75px;
+    }
+    .outerpro .pro28 .proi35 img
+    {
+    width: 180px;
+    height: 200px;
+    }
+    .outerpro .pro28 .proi35 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi35 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    }
+    .outerpro .pro28 .proi36
+    {
+    float: left;
+    margin: 70px 0px 0px 75px;
+    }
+    .outerpro .pro28 .proi36 img
+    {
+    width: 180px;
+    height: 200px;
+    }
+    .outerpro .pro28 .proi36 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi36 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 20px;
+    }
+    .outerpro .pro28 .proi37
+    {
+    display: inline-block;
+    background-color: blue;
+    height: 100%;
+    width: 50px;
+    position: relative;
+    left: 100px;    
+    cursor: pointer;
+    }
+    .outerpro .pro28 .proi37 i
+    {
+    margin: 160px 0px 0px 15px;    
+    }
+    .outerpro .pro29
+    {
+    background-color: rgba(66, 180, 0, 0.411);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro30
+    {
+    background-color: rgb(212, 25, 0);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .outerpro .pro31
+    {
+    background-color: rgb(12, 41, 102);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+
+    .outerpro .pro32
+    {
+    background-color: rgb(0, 156, 161);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(3,1fr);
+    height:375px;
+    }
+    .foot .foot1
+    {
+    background-color: black;
+    height: 50px;
+    margin: 10px 0px 0px 10px;
+    width: 98%;
+    /* padding: 25px 0px 0px 100px; */
+    }
+    .foot .foot1 a
+    {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: 14px;
+    left: 650px;
+    }
+    .foot .foot1 a:hover
+    {
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-bottom: 3px solid white;
+    }
+    .foot .foot2
+    {
+    background-color: black;
+    color: white;
+    width: 98%;
+    margin: -10px 0px 0px 10px;
+    height: 230px;
+
+    }
+    .foot .foot2 .foot21
+    {
+    float: left;
+    margin: 20px 0px 0px 350px;
+    }
+    .foot .foot2 .foot21 .foot212
+    {
+    position: relative;
+    top: -36px;
+    left: 40px;
+    }
+    .foot .foot2 .foot22
+    {
+    float: left;
+    margin: 20px 0px 0px 100px;
+    }
+    .foot .foot2 .foot22 .foot222
+    {
+    position: relative;
+    top: -38px;
+    left: 30px;
+    }
+    .foot .foot2 .foot23
+    {
+    padding: 18px 0px 0px 300px;
+    width: 200px;
+    height: 100px;
+    }
+    .foot .foot2 .foot24 .foot242
+    {
+    margin: 10px 0px 0px 600px;
+    }
+    .foot .foot2 .foot22 .foot232
+    {
+    position: relative;
+    top: -35px;
+    left: 43px;
+    }
+    .foot .foot2 .foot24
+    {
+    width: 200px;
+    height: 200px;   
+    }
+    .foot .foot2 .foot24 .foot242
+    {
+    width: 200px;
+    }
+    .foot .foot2 .foot24 .foot241
+    {
+    width: 100px;
+    position: relative;
+    left: 640px;
+    top: 10px;
+    }
+    .foot .foot3
+    {
+    background-color: black;
+    color: white;
+    margin: 10px 0px 0px 10px;
+    width: 98%;
+    height: 50px;
+
+    }
+    .foot .foot3 .foot31
+    {
+    float: left;
+    margin: 10px 0px 0px 100px;
+    }    
+    .foot .foot3 .foot32
+    {
+    float: left;
+    margin: 10px 0px 0px 100px;
+    }
+    .foot .foot3 .foot33
+    {
+    float: left;
+    margin: 10px 0px 0px 100px;
+    }
+    .foot .foot3 .foot34
+    {
+    float: left;
+    margin: -2px 0px 0px 100px;
+    }
+    .foot .foot3 .foot35
+    {
+    margin: 6px 0px 0px 80px;
+    }
+    .foot .foot3 .foot31 .foot312
+    {
+    position: relative;
+    top: -37px;
+    left: 30px;
+    }
+    .foot .foot3 .foot32 .foot322
+    {
+    position: relative;
+    top: -37px;
+    left: 30px;
+    }
+    .foot .foot3 .foot33 .foot332
+    {
+    position: relative;
+    top: -37px;
+    left: 30px;
+    }
+    #bcd1112
+    {
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    width: 200px;
+    height: 380px;
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 190px;
+    left: 20px;
+    }
+    #bcd1112 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 50px;
+    }
+    #bcd1112 ul li a
+    {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    #bcd1112 ul li a:hover
+    {
+    border-bottom: 3px solid black;
+    }
+    #bcd1112 ul li
+    {
+    margin: 10px 0px 0px 5px;
+    list-style-type: none;
+    }
+    #bcd1113
+    {
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    width: 220px;
+    /* height: 490px; */
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 190px;
+    left: 90px;
+    }
+    #bcd1113 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 50px;
+    }
+    #bcd1113 ul li a
+    {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    #bcd1113 ul li a:hover
+    {
+    border-bottom: 3px solid black;
+    }
+    #bcd1113 ul li
+    {
+    margin: 10px 0px 0px 2px;
+    list-style-type: none;
+    }
+    #bcd1114
+    {
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    width: 220px;
+    height: 320px;
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 190px;
+    left: 200px;
+    }
+    #bcd1114 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 50px;
+    }
+    #bcd1114 ul li a
+    {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    #bcd1114 ul li a:hover
+    {
+    border-bottom: 3px solid black;
+    }
+    #bcd1114 ul li
+    {
+    margin: 10px 0px 0px 2px;
+    list-style-type: none;
+    }
+    #bcd1115
+    {
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    width: 220px;
+    height: 340px;
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 190px;
+    left: 300px;
+    }
+    #bcd1115 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 50px;
+    }
+    #bcd1115 ul li a
+    {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    #bcd1115 ul li a:hover
+    {
+    border-bottom: 3px solid black;
+    }
+    #bcd1115 ul li
+    {
+    margin: 10px 0px 0px 2px;
+    list-style-type: none;
+    }
+
+    #bcd1116
+    {
+    color:rgb(0, 0, 0);
+    background-color: rgb(253, 253, 253);
+    width: 220px;
+    height: 370px;
+    opacity: 0.7;
+    border-radius: 10px 10px 10px 10px;
+    position: absolute;
+    top: 190px;
+    left: 420px;
+    }
+    #bcd1116 p
+    {
+    font-size: 25px;
+    margin: 20px 0px 0px 50px;
+    }
+    #bcd1116 ul li a
+    {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    }
+    #bcd1116 ul li a:hover
+    {
+    border-bottom: 3px solid black;
+    }
+    #bcd1116 ul li
+    {
+    margin: 10px 0px 0px 2px;
+    list-style-type: none;
+    }
+    }
+    @media only screen and (max-width: 768px)
+    {
+
+        #loa img
+        {
+           width: 350px;
+           height: 350px;
+           margin: 175px 0px 0px 75px;
+        }
+    body{
+        background-color: #631313;
+        width: auto;
+    }
+    .abc
+    {
+        background-image: url(navbg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 80px;
+    }
+    .abc .abc1
+    {
+        background-color: #000000;
+        height: 40px;
+        width: 250px;
+        border-radius: 10px;
+        margin: 20px 0px 0px 40px;
+        float: left;
+
+    }
+    .abc .abc1 a
+    {
+        text-decoration: none;
+        font-size: 20;
+        color: white;
+
+    }
+    .abc .abc1 .abc11
+    {
+        float:left;
+        margin: 8px 0px 0px 30px;
+    }
+    .abc .abc2
+    {
+        /* float: left; */
+        width: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+        
+    }
+    .abc .abc3
+    {
+        text-decoration: none;
+        position: relative;
+        top: -13px;
+        color: black;
+    }
+    a:hover
+    {
+        color: black;
+        border-bottom: 3px solid white;
+    }
+    .bcd .bcd1
+    {
+        background-color: #000000;
+        height: 50px;
+        width: 450px;
+        margin: 20px 0px 0px 10px;
+        
+    }
+    .bcd .bcd1 .bcd11
+    {
+        float: left;
+        font-size: 18px;
+        margin: 13px 0px 0px 20px;
+        cursor: pointer;
+    }
+    .bcd .bcd1 .bcd11 a
+    {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    .bcd .bcd1 .bcd11 a:hover
+    {
+        border-bottom: 3px solid white;
+        color: #ffffff;
+    }
+    .bcd2
+    {
+        background-color: black;
+        width: 450px;
+        height: 50px;
+        margin-left: 10px;
+        margin-top: 10px;
+        margin-bottom: 40px;
+        /* position: relative;
+        top: -50px;
+        left: 950px;*/
+    }    
+    input[type="search"]
+    {
+        width: 92%;
+        height: 28px;
+        margin: 10px 0px 0px 20px;
+        padding-left: 29px;
+        font-family: 'Alfa Slab One', cursive;
+        font-size: 18px;
+    }
+    .se1
+    {
+        background-color: #dfd2d2;
+        width: 28px;
+        height:27px;
+        position: relative;
+        top: -43px;
+        left: 20px;
+    }
+    .se1 #se11
+    {
+        color:#000000;
+        font-weight: bolder;
+        position: relative;
+        top: 2px;
+        left: 3px;
+    }
+    .outerpro
+    {
+        background-color: #ffffff;
+        width: 96%;
+        min-height: 1800px;
+        margin: -25px 10px 0px 0px;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 10px;
+        gap: 10px;
+    }
+    .outerpro .pro1
+    {
+        background-color: aqua;
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .outerpro .proi11
+    {
+        grid-column: 1/3;
+        margin: 10px 0px 0px 25px;
+        width: 50px;
+        height: 50px;
+    }
+    .outerpro .proi12
+    {
+        grid-column: 1/3;
+        font-size: 10px;
+    }
+    .outerpro .proi13
+    {
+        font-size: 10px; 
+        margin-top: 20px;
+    }
+    .outerpro .proi14
+    {
+        background-color: black;
+        height: 25px;
+        width: 45px;
+        font-size: 6px;
+        color: white;
+        margin: 15px 0px 0px 3px;
+        border-radius: 10px;
+    }
+    .outerpro .pro2
+    {
+        background-color: rgb(0, 255, 13);
+        grid-row: 1/2;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro3
+    {
+        background-color: rgb(255, 251, 0);
+        /* height: 350px; */
+        grid-column: 3/5;
+        /* height: 150px; */
+    }
+    .outerpro .p2 p
+    {
+    font-size: 18px;
+    margin: 20px 0px 0px 40px;
+    }
+    .outerpro .p2 .proi31
+    {
+    float: left;
+    margin: 13px 0px 0px 25px;
+    }
+    .outerpro .p2 .proi31 img
+    {
+    width: 50px; 
+    height: 50px;
+    }
+    .outerpro .p2 .proi32
+    {
+    float: left;
+    margin: 13px 0px 0px 10px;
+    }
+    .outerpro .p2 .proi32 img
+    {
+    width: 50px; 
+    height: 50px;
+    }
+    .outerpro .p2 .proi33
+    {
+    display: inline-block;
+    margin: 13px 0px 0px 10px;
+    }
+    .outerpro .p2 .proi33 img
+    {
+    width: 50px; 
+    height: 50px;
+    }
+    .outerpro .p2 .proi31 a
+    {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi31 a:hover
+    {
+    font-size: 11px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .p2 .proi32 a
+    {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    text-decoration: none;
+    font-size: 10px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi32 a:hover
+    {
+    font-size: 11px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .p2 .proi33 a
+    {
+    position: relative;
+    top: 10px;
+    left: 3px;
+    text-decoration: none;
+    font-size: 11px;
+    color: black;
+    transition: font-size 0.3s;
+    }
+    .outerpro .p2 .proi33 a:hover
+    {
+    font-size: 11px;
+    border-bottom: black 2px solid;
+    }
+    .outerpro .pro4
+    {
+        background-color: rgb(90, 69, 148);
+        /* height: 350px; */
+        grid-row: 2/3;
+        grid-column: 1/2;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+
+    .outerpro .pro5
+    {
+        background-color: rgba(255, 0, 212, 0.521);
+        grid-row: 2/3;
+        grid-column: 2/4;
+    }
+
+    .outerpro .pro6
+    {
+        background-color: rgb(255, 0, 0);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+    .outerpro .pro7
+    {
+        background-color: rgb(255, 145, 0);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+
+    .outerpro .pro8
+    {
+        background-color: rgb(156, 135, 107);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+
+    .outerpro .pro9
+    {
+        background-color: rgb(94, 86, 76);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+    .outerpro .pro10
+    {
+        background-color: rgb(83, 77, 161);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+
+    .outerpro .pro11
+    {
+        background-color: rgb(54, 206, 40);
+        grid-column: 1/3;
+    }
+
+    .outerpro .pro12
+    {
+        background-color: rgb(125, 184, 113);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+    .outerpro .pro13
+    {
+        background-color: rgb(156, 48, 133);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+      
+    }
+
+    .outerpro .pro14
+    {
+        background-color: rgb(145, 97, 35);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro15
+    {
+        background-color: rgb(255, 0, 0);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro16
+    {
+        background-color: rgba(255, 0, 0, 0.432);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }    
+
+    .outerpro .pro17
+    {
+        background-color: rgb(0, 247, 255);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro18
+    {
+        background-color: rgb(152, 175, 47);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro19
+    {
+        background-color: rgb(122, 79, 79);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .outerpro .pro20
+    {
+        background-color: rgb(99, 138, 10);
+        grid-column: 3/5;
+    }
+    .outerpro .pro21
+    {
+        background-color: rgb(63, 22, 129);
+        grid-column: 1/3;
+    }
+    .outerpro .pro22
+    {
+        background-color: rgb(255, 0, 106);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro23
+    {
+        background-color: rgb(0, 255, 34);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro24
+    {
+        background-color: rgb(255, 115, 0);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .outerpro .pro25
+    {
+        background-color: rgb(73, 127, 129);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro26
+    {
+        background-color: rgb(228, 120, 213);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro27
+    {
+        background-color: rgba(93, 0, 180, 0.445);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+    .outerpro .pro28
+    {
+        background-color: rgba(0, 174, 180, 0.692);
+        grid-column: 1/5;
+    }
+    .outerpro .pro28 .proi31
+    {
+    float: left;
+    background-color: blue;
+    height: 100%;
+    width: 30px;
+    cursor: pointer;
+    }
+    .outerpro .pro28 .proi31 i
+    {
+    margin: 40px 0px 0px 8px;
+    }
+    .outerpro .pro28 .proi32
+    {
+    float: left;
+    margin: 25px 0px 0px 23px;
+    }
+    .outerpro .pro28 .proi32 img
+    {
+    width: 50px;
+    height: 50px;
+    }
+    .outerpro .pro28 .proi32 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi32 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 11px;
+    }
+    .outerpro .pro28 .proi33
+    {
+    float: left;
+    margin: 25px 0px 0px 23px;
+    }
+    .outerpro .pro28 .proi33 img
+    {
+    width: 50px;
+    height: 50px;
+    }
+    .outerpro .pro28 .proi33 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi33 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 11px;
+    }
+    .outerpro .pro28 .proi34
+    {
+    float: left;
+    margin: 25px 0px 0px 23px;
+    }
+    .outerpro .pro28 .proi34 img
+    {
+    width: 50px;
+    height: 50px;
+    }
+    .outerpro .pro28 .proi34 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi34 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 11px;
+    }
+    .outerpro .pro28 .proi35
+    {
+    float: left;
+    margin: 25px 0px 0px 23px;
+    }
+    .outerpro .pro28 .proi35 img
+    {
+    width: 50px;
+    height: 50px;
+    }
+    .outerpro .pro28 .proi35 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi35 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 11px;
+    }
+    .outerpro .pro28 .proi36
+    {
+    float: left;
+    margin: 25px 0px 0px 23px;
+    }
+    .outerpro .pro28 .proi36 img
+    {
+    width: 50px;
+    height: 50px;
+    }
+    .outerpro .pro28 .proi36 a
+    {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    position: relative;
+    top: 15px;
+    left: 4px;
+    transition: font-size 0.3s;
+    }
+    .outerpro .pro28 .proi36 a:hover
+    {
+    border-bottom: 2px solid black;
+    font-size: 11px;
+    }
+    .outerpro .pro28 .proi37
+    {
+    display: inline-block;
+    background-color: blue;
+    height: 100%;
+    width: 30px;
+    position: relative;
+    left: 24px;    
+    cursor: pointer;
+    }
+    .outerpro .pro28 .proi37 i
+    {
+    margin: 40px 0px 0px 2px;    
+    }
+    .outerpro .pro29
+    {
+        background-color: rgba(66, 180, 0, 0.411);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }   
+
+    .outerpro .pro30
+    {
+        background-color: rgb(212, 25, 0);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }
+
+    .outerpro .pro31
+    {
+        background-color: rgb(12, 41, 102);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }    
+    .outerpro .pro32
+    {
+        background-color: rgb(0, 156, 161);
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+    }    
+
+    .foot .foot1
+    {
+        background-color: black;
+        height: 30px;
+        margin: 10px 0px 0px 10px;
+        width: 76%;
+        padding: 25px 0px 0px 100px; 
+    }
+    .foot .foot1 a
+    {
+        color: white;
+        text-decoration: none;
+        font-size: 18px;
+        position: relative;
+        top: -7px;
+        left: 80px;
+    }
+    .foot .foot1 a:hover
+    {
+        border: 2px solid rgb(255, 255, 255); 
+        border-bottom: 3px solid white;
+    }
+    .foot .foot2
+    {
+        background-color: black;
+        color: white;
+        width: 98%;
+        margin: -10px 0px 0px 10px;
+        height: 230px;
+
+    }
+    .foot .foot2 .foot21
+    {
+        float: left;
+        margin: 20px 0px 0px 10px;
+    }
+    .foot .foot2 .foot21 .foot212
+    {
+        font-size: 13px;
+        position: relative;
+        top: -33px;
+        left: 35px;
+    }
+    .foot .foot2 .foot22
+    {
+        float: left;
+        margin: 20px 0px 0px 45px;
+    }
+    .foot .foot2 .foot22 .foot222
+    {
+        font-size: 13px;
+        position: relative;
+        top: -33px;
+        left: 30px;
+    }
+    .foot .foot2 .foot23
+    {
+        padding: 18px 0px 0px 100px;
+        width: 200px;
+        height: 100px;
+    }
+    .foot .foot2 .foot24 .foot242
+    {
+        margin: 10px 0px 0px 150px;
+    }
+    .foot .foot2 .foot22 .foot232
+    {
+        font-size: 13px;
+        position: relative;
+        top: -33px;
+        left: 38px;
+    }
+    .foot .foot2 .foot24
+    {
+        width: 200px;
+        height: 200px;   
+    }
+    .foot .foot2 .foot24 .foot242
+    {
+        width: 200px;
+    }
+    .foot .foot2 .foot24 .foot241
+    {
+        width: 100px;
+        position: relative;
+        left: 200px;
+        top: 10px;
+    }
+    .foot .foot3
+    {
+        background-color: black;
+        color: white;
+        margin: 10px 0px 0px 0px;
+        width: 99%;
+        height: 130px;
+
+    }
+    .foot .foot3 .foot31
+    {
+        float: left;
+        margin: 10px 0px 0px 15px;
+    }    
+    .foot .foot3 .foot32
+    {
+        float: left;
+        margin: 10px 0px 0px 60px;
+    }
+    .foot .foot3 .foot33
+    {
+        float: left;
+        margin: 10px 0px 0px 80px;
+    }
+    .foot .foot3 .foot34
+    {
+        font-size: 13px;
+        /* float: left; */
+        /* margin: -2px 0px 0px 100px; */
+        position: relative;
+        top: 40px;
+        left: -180px;
+    }
+    .foot .foot3 .foot35
+    {
+        width: 98%;
+        margin: 2px 0px 0px 0px;
+        position: relative;
+        top: 5px;
+        left: 5px;
+    }
+    .foot .foot3 .foot31 .foot312
+    {
+        font-size: 13px;
+        position: relative;
+        top: -32px;
+        left: 30px;
+    }
+    .foot .foot3 .foot32 .foot322
+    {
+        font-size: 13px;
+        position: relative;
+        top: -32px;
+        left: 30px;
+    }
+    .foot .foot3 .foot33 .foot332
+    {
+        font-size: 13px;
+        position: relative;
+        top: -32px;
+        left: 30px;
+    } 
+    #bcd1112
+    {
+        color:rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        width: 200px;
+        height: 380px;
+        opacity: 0.7;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 20px;
+    }
+    #bcd1112 p
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    #bcd1112 ul li a
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #bcd1112 ul li a:hover
+    {
+        border-bottom: 3px solid black;
+    }
+    #bcd1112 ul li
+    {
+        margin: 10px 0px 0px 5px;
+        list-style-type: none;
+    }
+    #bcd1113
+    {
+        color:rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        width: 220px;
+        /* height: 490px; */
+        opacity: 0.7;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 90px;
+    }
+    #bcd1113 p
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    #bcd1113 ul li a
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #bcd1113 ul li a:hover
+    {
+        border-bottom: 3px solid black;
+    }
+    #bcd1113 ul li
+    {
+        margin: 10px 0px 0px 2px;
+        list-style-type: none;
+    }
+    #bcd1114
+    {
+        color:rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        width: 220px;
+        height: 320px;
+        opacity: 0.7;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 200px;
+    }
+    #bcd1114 p
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    #bcd1114 ul li a
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #bcd1114 ul li a:hover
+    {
+        border-bottom: 3px solid black;
+    }
+    #bcd1114 ul li
+    {
+        margin: 10px 0px 0px 2px;
+        list-style-type: none;
+    }
+    #bcd1115
+    {
+        color:rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        width: 220px;
+        height: 340px;
+        opacity: 0.7;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 230px;
+    }
+    #bcd1115 p
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    #bcd1115 ul li a
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #bcd1115 ul li a:hover
+    {
+        border-bottom: 3px solid black;
+    }
+    #bcd1115 ul li
+    {
+        margin: 10px 0px 0px 2px;
+        list-style-type: none;
+    }
+
+    #bcd1116
+    {
+        color:rgb(0, 0, 0);
+        background-color: rgb(253, 253, 253);
+        width: 220px;
+        height: 370px;
+        opacity: 0.7;
+        border-radius: 10px 10px 10px 10px;
+        position: absolute;
+        top: 150px;
+        left: 250px;
+    }
+    #bcd1116 p
+    {
+        font-size: 25px;
+        margin: 20px 0px 0px 50px;
+    }
+    #bcd1116 ul li a
+    {
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+    }
+    #bcd1116 ul li a:hover
+    {
+        border-bottom: 3px solid black;
+    }
+    #bcd1116 ul li
+    {
+        margin: 10px 0px 0px 2px;
+        list-style-type: none;
+    }
+
+    }

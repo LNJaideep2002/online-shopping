@@ -1,0 +1,282 @@
+<html>
+    <head>
+        <link href="pay.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="loa">
+            <img src="loading.gif">
+        </div>
+        <div id="loa1">  
+            <div class="abc" id="top">
+                <div class="abc1">
+                    <div class="abc11">
+                        <a href="/">Home</a>
+                    </div>
+                    <div class="abc11">
+                        <a href="">Offer's</a>
+                    </div>
+                    <div class="abc11">
+                        <a href="cart">Cart</a>
+                    </div>
+                </div>
+                <img src="icon.png" class="abc2" id="a1">
+                <a href="/login" class="abc3" >Login</a>
+            </div>
+            <div class="bcd">
+                <div class="bcd1">
+                    <div class="bcd11" >
+                        <a id="bcd111">Mobiles</a>
+                    </div>
+                    <div class="bcd11">
+                        <a id="bcd112">Fashion</a>
+                    </div>
+                    <div class="bcd11">
+                        <a id="bcd113">Appliances</a>
+                    </div>
+                    <div class="bcd11">
+                        <a id="bcd114">Sports
+                        </a>
+                    </div>
+                    <div class="bcd11">
+                        <a id="bcd115">Computers</a>
+                    </div>
+                </div>
+                <div class="bcd2" id="bcd2id">
+                    <form action="/search" method="GET">
+                        <input type="search" id="search1" placeholder="Search" name="search">
+                        <input type="submit" style="display: none;">
+                    </form>
+                    <div class="se1">
+                        <i class="material-icons" id="se11">search</i>
+                    </div>
+                </div>
+            </div>
+            <div class="pay" id="payid">
+                <div class="pay1">
+                    <p>Select a payment method</p>
+                </div>
+                <div class="pay2">
+                    <div class="pay21">
+                        <p>Payment methods</p>
+                    </div>
+                    <div class="pay22">
+                        <input type="checkbox" form="order" name="card" id="card">
+                        <p>Debit/Credit/ATM Card</p>
+                        <img src="debit.JPG">
+                        <br>
+                    </div>
+                    <input type="checkbox" form="order" name="cash" id="cash">
+                    <div class="incaon">
+                    <p>Cash on delivery</p>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <div class="or">
+                <p>Total items:20</p>
+                <p>Toal price:100000</p>
+                <form id="order" >
+                    <button type="submit">Place order</button>
+                </form>
+            </div>
+            <div class="foot">
+                <div class="foot2">
+                    <div class="foot21">
+                        <i class="material-icons" class="foot211">local_shipping</i>
+                        <p class="foot212">Free Delivery</p>
+                    </div>
+                    <div class="foot22">
+                        <i class="material-icons" class="foot221">payment</i>
+                        <p class="foot222">100% secure payments</p>
+                    </div>
+                    <div class="foot22">
+                        <i class="material-icons" class="foot231">report_problem</i>
+                        <p class="foot232">Report problem</p>
+                    </div>
+                    <div class="foot24">
+                        <h4 class="foot241">About</h4>
+                        <ul class="foot242">
+                            <li>About us</li>
+                            <li>New Showroom</li>
+                            <li>Retail Store</li>
+                            <li>Bulk Order</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="foot3">
+                    <div class="foot31">
+                        <i class="material-icons" class="foot311">storefront</i>
+                        <p class="foot312">Sell on our Platform</p>
+                    </div>
+                    <div class="foot32">
+                        <i class="material-icons" class="foot321">local_offer</i>
+                        <p class="foot322">Gift cards</p>
+                    </div>
+                    <div class="foot33">
+                        <i class="material-icons" class="foot331">help_outline</i>
+                        <p class="foot332">Help Center</p>
+                    </div>
+                    <div class="foot34" >
+                        <p>&copy;All rights reserved 2021</p>
+                    </div>
+                    <img class="foot35" src="https://drive.google.com/uc?id=13LBU9QcZuRDcPudZhEOwnQXO0RrPt-6Y">
+                </div>
+            </div>
+            <div id="mob">
+                <div id="mobid">
+
+                </div>
+            </div>  
+        </div>
+        <script>
+             document.getElementById("loa1").style.display="none";
+            var q=0,q1=0,q2=0,q3=0,q4=0;
+            window.addEventListener("load",function()
+            {
+                document.getElementById("loa1").style.display="";
+                document.getElementById("loa").style.display="none";
+            });
+            console.log(document.getElementsByTagName("div"));
+            var ab=document.getElementsByTagName("div");
+            document.getElementById("bcd111").addEventListener("click",function()
+            {
+                if(q==0)
+                {
+                    q++;
+                    ab[34].setAttribute("id","mobid");
+                    document.getElementById("mobid").setAttribute("id","bcd1112");
+                    document.getElementById("bcd1112").innerHTML="<p>Brands<p><ul><li><a>Samsung</a></li><li><a>Apple</a></li><li><a>Huawei</a></li><li><a>Xiaomi</a></li><li><a>Oppo</a></li><li><a>LG</a></li><li><a>Realme</a></li><li><a>One Plus</a></li><li><a>Vivo</a></li></ul>";
+                }
+                else{
+                    ab[34].setAttribute("id","mobid");
+                ab[34].innerHTML="";
+                q=0;
+                }
+                });
+                document.getElementById("bcd112").addEventListener("click",function()
+                {
+                    if(q1==0)
+                    {
+                        q1++;     
+                        ab[34].setAttribute("id","mobid");
+                        document.getElementById("mobid").setAttribute("id","bcd1113");
+                        document.getElementById("bcd1113").innerHTML="<p>Brands<p><ul><li><a>Puma</a></li><li><a>LEE</a></li><li><a>Allen Solly</a></li><li><a>Peter England</a></li><li><a>Van Heusen</a></li><li><a>Raymond</a></li><li><a>Park Avenue</a><ul>";
+                    }
+                    else{
+                        ab[34].setAttribute("id","mobid");
+                    ab[34].innerHTML="";
+                    q1=0;
+                    }  
+                });
+            document.getElementById("bcd113").addEventListener("click",function()
+                {
+                    if(q2==0)
+                    {
+                        q2++;
+                        ab[34].setAttribute("id","mobid");
+                        document.getElementById("mobid").setAttribute("id","bcd1114");
+                        document.getElementById("bcd1114").innerHTML="<p>Products<p><ul><li><a>Stabilizers</a></li><li><a>Air Coolers</a></li><li><a>Heaters</a></li><li><a>Washing Machine</a></li><li><a>Refrigerators</a></li><li><a>TV</a></li><li><a>Air Conditioners</a></li></ul>";
+                        }
+                    else
+                    {
+                        ab[34].setAttribute("id","mobid");
+                        ab[34].innerHTML="";
+                        q2=0;
+                    }
+            
+                    });
+            document.getElementById("bcd114").addEventListener("click",function()
+                {
+                    if(q3==0)
+                    {
+                        q3++;
+                        ab[34].setAttribute("id","mobid");
+                        document.getElementById("mobid").setAttribute("id","bcd1115");
+                        document.getElementById("bcd1115").innerHTML="<p>Products<p><ul><li><a>Cricket</a></li><li><a>Foot Ball</a></li><li><a>Batminton</a></li><li><a>Table Tennis</a></li><li><a>Tennis</a></li><li><a>Basket Ball</a></li><li><a>Swimming</a></li><li><a>Volley Ball</a></ul>";
+                    }
+                    else
+                    {
+                        ab[34].setAttribute("id","mobid");
+                        ab[34].innerHTML="";
+                        q3=0;
+                    }
+            
+                    });
+            document.getElementById("bcd115").addEventListener("click",function()
+                {
+                    if(q4==0)
+                    {
+                        q4++;
+                        ab[34].setAttribute("id","mobid");
+                        document.getElementById("mobid").setAttribute("id","bcd1116");
+                        document.getElementById("bcd1116").innerHTML="<p>Products<p><ul><li><a>Mac Book</a></li><li><a>HP</a></li><li><a>Dell</a></li><li><a>Lenovo</a></li><li><a>Acer</a></li><li><a>Samsung</a></li><li><a>Asus</a></li><li><a>HCL</a><li><a>Sony</a></li></ul>";
+                    }
+                    else
+                    {
+                        ab[34].setAttribute("id","mobid");
+                        ab[34].innerHTML="";
+                        q4=0;
+                    }
+            
+                    });
+            document.getElementById("payid").addEventListener("click",function()
+                {
+                    ab[34].setAttribute("id","mobid");
+                    ab[34].innerHTML="";
+                });
+                document.getElementById("top").addEventListener("click",function()
+                {
+                    ab[34].setAttribute("id","mobid");
+                    ab[34].innerHTML="";
+                });
+                document.getElementById("bcd2id").addEventListener("click",function()
+                {
+                    ab[34].setAttribute("id","mobid");
+                    ab[34].innerHTML="";
+                });
+                var t3=0;
+                var x = document.getElementById("cash").checked;
+                console.log(x);
+                var t4=0;
+                if(t3==0)
+                    {
+                        document.getElementById("card").setAttribute("required","required");
+                        document.getElementById("cash").setAttribute("required","required");
+
+                    }
+                document.getElementById("cash").addEventListener("click",function(){
+                    console.log("checked cash");
+                    if(t3==0)
+                    {
+                        t3=2;
+                        document.getElementById("cash").removeAttribute("required");
+                        document.getElementById("card").removeAttribute("required");
+                    } else{
+                        t3=0;
+                        document.getElementById("card").setAttribute("required","required");
+                        document.getElementById("cash").setAttribute("required","required");
+                    }
+                    document.getElementById("cash").removeAttribute("required");
+                    document.getElementById("card").checked=false;
+                });
+                document.getElementById("card").addEventListener("click",function(){
+                    console.log("checkedcard");
+                    if(t4==0)
+                    {
+                        t4=2;
+                        document.getElementById("cash").removeAttribute("required");
+                        document.getElementById("card").removeAttribute("required");
+                    } else{
+                        t4=0;
+                        document.getElementById("card").setAttribute("required","required");
+                        document.getElementById("cash").setAttribute("required","required");
+                    }
+                    document.getElementById("cash").checked=false;
+                });
+        </script>
+    </body>
+</html>

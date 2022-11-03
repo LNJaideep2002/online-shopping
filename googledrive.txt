@@ -1,0 +1,28 @@
+https://drive.google.com/file/d/1ZH76kbVOCMUKcaoKavIn_Dbw8CK2AcZv/view?usp=sharing
+
+
+
+https://drive.google.com/uc?id="1ZH76kbVOCMUKcaoKavIn_Dbw8CK2AcZv"
+https://drive.google.com/uc?id=1Wgb8Uk3ukbBw_YgE9D_KM6rz3Ys9HGfR
+
+database name-project
+collection name products
+proid
+profullname
+proshortname
+probrandname
+prospecification
+prodescription
+proprice
+prostock
+proimg
+
+
+collection name users
+username 
+password
+address
+mobileno
+email
+noofproductsbrought track it with proid
+cart track it with proid
